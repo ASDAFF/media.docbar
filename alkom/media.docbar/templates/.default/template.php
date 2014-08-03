@@ -20,5 +20,3 @@ if ($arResult[CANVIEWCOLLECTION]) {
 }
 else { ?> <h3><?=GetMessage('ALKOM_DOCBAR_ACCESS_DENIED');?></h3> <? }; ?>
 </div>
-<?
-?>

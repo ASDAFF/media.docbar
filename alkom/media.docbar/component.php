@@ -18,7 +18,13 @@ if (!function_exists(getCanView)) {
 	};
 };
 
-if (CMedialib::CanDoOperation('medialib_view_collection', $arParams[MEDIASECTION])) {
+if (!function_exists(getCanAccess)) {
+	function getCanAccess ($collectionId) {
+		return CMedialib::CanDoOperation('medialib_view_collection', $collectionId);
+	};
+};
+
+if (($arParams[USEPERMISSIONS]) && (getCanAccess($arParams[MEDIASECTION])) || ($arParams[USEPERMISSIONS]=='N')) {
 
 	$params = array ("arCollections"=>array($arParams[MEDIASECTION]));
 	$items = CMedialibItem::GetList($params);

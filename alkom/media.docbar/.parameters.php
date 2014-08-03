@@ -37,7 +37,7 @@ $arComponentParameters = array(
 			'MULTIPLE' => 'N',
 			'ADDITIONAL_VALUES' => 'N',
 			'VALUES' => $arMediaCollections,
-			'DEFAUL' => 'N',
+			'DEFAULT' => 'N',
 			'REFRESH' => 'N',
 		),
 		'CANVIEWEXTS' => array (
@@ -45,6 +45,12 @@ $arComponentParameters = array(
 			'NAME' => GetMessage('ALKOM_DOCBAR_CAN_VIEW_EXTS'),
 			'TYPE' => 'STRING',
 			'DEFAULT' => 'pdf,jpg,jpeg,png,bmp,gif,tiff',
+		),
+		'USEPERMISSIONS' => array (
+			'PARENT' => 'BASE',
+			'NAME' => GetMessage('ALKOM_DOCBAR_USE_PERMISSIONS'),
+			'TYPE' => 'CHECKBOX',
+			'DEFAULT' => 'Y',
 		),
 	),
 );

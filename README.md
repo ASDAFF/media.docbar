@@ -5,7 +5,7 @@ Bar of items from Medialibrary's collection with permissions for 1C Bitrix.
 
 How to install?
 ============
-Download .zip and unpack it to %BitrixRoot%/bitrix/components/
+Download .zip, unpack it and put the folder "alkom" in "%BitrixRoot%/bitrix/components/"
 
 
 How to use?

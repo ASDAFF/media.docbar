@@ -28,17 +28,12 @@
         </ul>
       </header>
       <section>
-        <h1>
-<a name="docs-bar-alkommediadocbar" class="anchor" href="#docs-bar-alkommediadocbar"><span class="octicon octicon-link"></span></a>Docs Bar. (alkom:media.docbar)</h1>
-
-<p>Bar of items from Medialibrary's collection with permissions for 1C Bitrix.</p>
-
-<hr><h2>
+        <h2>
 <a name="how-to-install" class="anchor" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to install?</h2>
 
 <p>Download .zip and unpack it to %BitrixRoot%/bitrix/components/</p>
 
-<h2>
+<hr><h2>
 <a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use?</h2>
 
 <p>2 Ways:</p>
@@ -46,7 +41,12 @@
 <ul>
 <li>Add "Docs bar" component in Page Editor in 1C Bitrix</li>
 <li>Put the next php code in the need place:</li>
-</ul><p><code>&lt;? $APPLICATION-&gt;IncludeComponent("alkom:media.docbar", ".default", array(),   false); ?&gt;</code></p>
+</ul><div class="highlight highlight-php"><pre><span class="o">&lt;?</span> <span class="nv">$APPLICATION</span><span class="o">-&gt;</span><span class="na">IncludeComponent</span><span class="p">(</span><span class="s2">"alkom:media.docbar"</span><span class="p">,</span>
+    <span class="s2">".default"</span><span class="p">,</span>
+    <span class="k">array</span><span class="p">(</span> <span class="p">),</span>
+    <span class="k">false</span>
+<span class="p">);</span> <span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
 
 <p><em>Don't forget set settings in Bitrix Editor!</em></p>
 

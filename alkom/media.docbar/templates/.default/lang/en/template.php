@@ -3,4 +3,5 @@
 $MESS ['ALKOM_DOCBAR_VIEW_ITEM'] = "Open to view";
 $MESS ['ALKOM_DOCBAR_DOWNLOAD_ITEM'] = "Download";
 $MESS ['ALKOM_DOCBAR_ACCESS_DENIED'] = "Access denied!";
+/*¸*/
 ?>

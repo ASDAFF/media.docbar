@@ -7,7 +7,7 @@ CMedialib::Init();
 $dbMediaTypes = CMedialib::GetTypes(array(), true);
 foreach ($dbMediaTypes as $vals)
 {
-	$arMediaTypes[$vals[ID]] = $vals[NAME];
+	$arMediaTypes[$vals[id]] = $vals[name];
 };
 
 ksort($arMediaTypes);

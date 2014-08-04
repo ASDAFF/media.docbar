@@ -7,6 +7,9 @@ Bar of items from Medialibrary's collection with permissions for 1C Bitrix.
 v1.01:
 * Added: "Use permissions" setting
 
+v1.02:
+* Fix: Lang encodes
+
 ***
 
 ## How to install?

@@ -26,8 +26,6 @@ if (!function_exists(getCanAccess)) {
 
 if (($arParams[USEPERMISSIONS]) && (getCanAccess($arParams[MEDIASECTION])) || ($arParams[USEPERMISSIONS]=='N')) {
 
-	$arResult[CHARSET_ADDER] = (LANG_CHARSET == ToUpper("UTF-8") ? '_UTF8' : '');
-	
 	$params = array ("arCollections"=>array($arParams[MEDIASECTION]));
 	$items = CMedialibItem::GetList($params);
 

@@ -5,7 +5,7 @@ $arComponentDescription = array(
 	"NAME" => GetMessage("ALKOM_DOCBAR_NAME"),
 	"DESCRIPTION" => GetMessage("ALKOM_DOCBAR_DESCRIPTION"),
 	"ICON" => "/images/icon.gif",
-	"VERSION" => "1.03",
+	"VERSION" => "1.02",
 	"PATH" => array(
 		"ID" => "AlKom",
 	),

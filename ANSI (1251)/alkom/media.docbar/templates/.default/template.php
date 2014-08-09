@@ -11,12 +11,12 @@ if ($arResult[CANVIEWCOLLECTION]) {
 				<?=((strlen($item[NAME])>15) ? (substr($item[NAME],0,13).'...') : $item[NAME])?>
 				<br>
 				<? if ($item[CANVIEW]){ ?>			
-					<a href="<?=$item[PATH]?>" title="<?=GetMessage('ALKOM_DOCBAR_VIEW_ITEM'.$arResult[CHARSET_ADDER]);?>" target="_blank"><?=CFile::ShowImage($templateFolder .'/img/view.png')?></a>
+					<a href="<?=$item[PATH]?>" title="<?=GetMessage('ALKOM_DOCBAR_VIEW_ITEM');?>" target="_blank"><?=CFile::ShowImage($templateFolder .'/img/view.png')?></a>
 				<? }; ?>
-				<a href="<?=$item[PATH]?>" title="<?=GetMessage('ALKOM_DOCBAR_DOWNLOAD_ITEM'.$arResult[CHARSET_ADDER]);?>" target="_blank" download><?=CFile::ShowImage($templateFolder .'/img/download.png')?></a>
+				<a href="<?=$item[PATH]?>" title="<?=GetMessage('ALKOM_DOCBAR_DOWNLOAD_ITEM');?>" target="_blank" download><?=CFile::ShowImage($templateFolder .'/img/download.png')?></a>
 			</div>
 		</div>
 	<? };
 }
-else { ?> <h3><?=GetMessage('ALKOM_DOCBAR_ACCESS_DENIED'.$arResult[CHARSET_ADDER]);?></h3> <? }; ?>
+else { ?> <h3><?=GetMessage('ALKOM_DOCBAR_ACCESS_DENIED');?></h3> <? }; ?>
 </div>

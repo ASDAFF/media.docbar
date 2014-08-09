@@ -10,6 +10,9 @@ v1.01:
 v1.02:
 * Fix: Lang encodes
 
+v1.03:
+* Fix: Auto ANSI/UTF-8 charset
+
 ***
 
 ## How to install?
